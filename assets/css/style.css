@@ -4,57 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    padding: 20px 35px;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
-  }
-  
-  header a {
-    font-family: 'Rock Salt', cursive;
-    color: black;
-  }
-  
-  header nav {
-    margin: 7px 0;
-  }
-  
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    font-family: 'Rock Salt', cursive;
-  }
-  
-  header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
-}    
+
 section {
     position: relative;
     width: 100%;
-    min-height: 115vh;
+    min-height: 95vh;
     background: url(../images/Sunset.jpg);
     background-size: cover;
 }
+
 section:before {
     content: '';
     position: absolute;
@@ -67,3 +25,48 @@ section:before {
     background-position: center;
     mix-blend-mode: screen;
 }
+
+/* header */
+header {
+    padding: 0px 35px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+  
+header a {
+    font-family: 'Rock Salt', cursive;
+    color: black;
+}
+  
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    font-family: 'Rock Salt', cursive;
+}
+  
+header nav ul li a:hover, header a:hover {
+    color: #808080; 
+    text-shadow: none;
+}    
+
