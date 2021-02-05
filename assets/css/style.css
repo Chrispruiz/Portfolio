@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Rock Salt', cursive;
+    color: black;
 }
 
 .hero {
@@ -40,11 +42,6 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-}
-  
-header a {
-    font-family: 'Rock Salt', cursive;
-    color: black;
 }
   
 header nav, footer nav {
@@ -114,7 +111,7 @@ header nav ul li a:hover, header a:hover, footer nav ul li a:hover {
     text-align: center;
 }
   
-.me h4 {
+.me h4, .contact {
     margin: 0 auto 35px auto;
     font-weight: lighter;
     font-size: 18px;
@@ -156,6 +153,9 @@ body p {
     color: #808080; 
     text-shadow: none;
 }  
+
+/*contact*/
+
 
 /* footer */
 footer {
