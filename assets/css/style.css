@@ -298,6 +298,9 @@ footer nav ul li a, footer div {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    h1 {
+        font-size: 16px;
+    }
     header {
         text-align: left;
         font-size: 10px;
