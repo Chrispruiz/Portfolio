@@ -23,7 +23,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 101%;
     background: url(../images/splash.jpg);
     background-size: 1800px;
     background-position: center;
@@ -236,8 +236,8 @@ footer nav ul li a, footer div {
         margin: 0 auto;
         width: 50%;
         background-color: transparent;
-      }
-      .me img {
+    }
+    .me img {
         width: 50%;
         min-height: 5vh;
         float: right;
@@ -298,6 +298,46 @@ footer nav ul li a, footer div {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    header {
+        text-align: left;
+        font-size: 10px;
+      }
+    header nav {
+        margin: 14px 0;
+    }
     .hero {
         min-height: 30vh;
     }
+    .hero:before {
+        background-size: 600px;
+    }
+    .me {
+        margin: 0 0 -50px 0;
+    }
+    .me h3 {
+        margin: -7px auto -8px auto;
+        font-size: 17px;
+    }
+    .me h4 {
+        margin: 0 auto 20px auto;
+        font-size: 11px;
+    }
+    .me img {
+        width: 50%;
+        display: block;
+        margin: 0 87px;
+    }
+    body p {
+        font-size: 5px;
+    }
+    p.intro::first-letter {
+        font-size: 35px;
+        margin: 15px 5px 10px 0;
+    }
+    .section-title {
+        font-size: 23px;
+    }
+      footer div {
+          padding: 28px 15px;
+    }
+}
