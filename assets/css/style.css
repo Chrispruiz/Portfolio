@@ -316,7 +316,7 @@ footer nav ul li a, footer div {
     }
     .me h3 {
         margin: -7px auto -8px auto;
-        font-size: 17px;
+        font-size: 15px;
     }
     .me h4 {
         margin: 0 auto 20px auto;
@@ -328,7 +328,7 @@ footer nav ul li a, footer div {
         margin: 0 87px;
     }
     body p {
-        font-size: 5px;
+        font-size: 8px;
     }
     p.intro::first-letter {
         font-size: 35px;
